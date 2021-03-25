@@ -1,0 +1,29 @@
+__authors__='1428612,1564963,1567369'
+
+TO-DO LIST
+--------------------------------------------------------------------------
+TESTS UNITARIOS PLAYER:
+* __playerName__ init works
+* empty init works
+* eq operator works
+
+TESTS UNITARIOS GAME:
+* Can call game get_score()
+* Before the game score is "Love-All"
+* Test init
+* won_point adds 1 point to the correct player
+
+TESTS INTEGRACION GAME Y PLAYER:
+* When player1 wins first point score is "Fifteen-Love"
+* When player1 wins first point and player2 wins second point score is "Fifteen-All"
+* When player1 wins first and third point and player2 wins second point score is "Thirty-Fifteen"
+* When player1 wins second point score is "Thirty-Love"
+* When player1 wins third point score is "Forty-Love"
+* When player1 wins fourth point score is "Win for player1"
+* When player2 wins first point score is "Love-Fifteen"
+
+TESTS EXPLORACIÓN:
+* wonpoint on a completed/won game should show an error
+* player1 and player2 from game should be different
+* create_player() works correctly
+* create_game() works correctly
